@@ -264,7 +264,7 @@ function paginaVertaler(params) {
   const groepen = { eilanden: 'Eilanden', 'zeeuws-vlaanderen': 'Zeeuws-Vlaanderen' };
   app.innerHTML = `
     <h1>Vertaler</h1>
-    <p class="zacht">Vertaal woord voor woord tussen Nederlands en Zeeuws. Kies je streek: Zeeuws verschilt per eiland en zelfs per dorp.</p>
+    <p class="zacht">Vertaal tussen Nederlands en Zeeuws, inclusief vervoegingen, meervouden en verkleinwoorden. Kies je streek: Zeeuws verschilt per eiland en zelfs per dorp.</p>
     <div class="instellingen">
       <div class="veld">
         <label for="regio">Streek</label>
@@ -288,6 +288,7 @@ function paginaVertaler(params) {
     </div>
     <div class="legenda">
       <span><span class="seg seg-woordenboek">woord</span> uit het woordenboek (klik voor details)</span>
+      <span><span class="seg seg-afgeleid">woord</span> vervoegd of verbogen met de grammatica</span>
       <span><span class="seg seg-andere-regio">woord</span> bekend uit een andere streek</span>
       <span id="leg-regel"><span class="seg seg-regel">woord</span> benaderd met klankregels</span>
       <span id="leg-onbekend"><span class="seg seg-onbekend">woord</span> onbekend – voeg het toe!</span>
@@ -295,7 +296,13 @@ function paginaVertaler(params) {
     <div id="alternatieven" class="alternatieven"></div>
     <section class="sectie kaart">
       <h2>Hoe werkt de vertaler?</h2>
-      <p>De vertaler zoekt elk woord en elke woordgroep op in het woordenboek en kiest het liefst een woord uit jouw streek. Staat een woord er niet in, dan kan hij het (Nederlands → Zeeuws) benaderen met typische Zeeuwse klankregels, zoals het weglaten van de h (<em>huis → uus</em>), <em>ij → ie</em> (<em>tijd → tied</em>) en <em>ui → uu</em>. Dat is een gok: controleer het altijd. Zinsbouw en vervoegingen worden niet aangepast.</p>
+      <p>De zinsbouw van het Zeeuws lijkt sterk op die van het Nederlands; het verschil zit vooral in de woorden en hun vormen. De vertaler werkt daarom in drie stappen:</p>
+      <ol>
+        <li><strong>Woordenboek</strong>: elk woord en elke woordgroep wordt opgezocht, het liefst een woord uit jouw streek.</li>
+        <li><strong>Grammatica</strong>: staat een vorm er niet letterlijk in, dan zoekt de vertaler de grondvorm op en bouwt hij de juiste vorm opnieuw op. <em>ik kijk</em> wordt <em>'k kieke</em>, <em>hij kijkt</em> wordt <em>ie kiekt</em>, <em>gewoond</em> wordt <em>eweund</em>, <em>huizen</em> wordt <em>uuzen</em> en <em>huisje</em> wordt <em>uusje</em>. Het onderwerp (ik, jij, wij…) bepaalt welke persoonsvorm het wordt. Staat er bij een werkwoord een vervoeging in de toelichting, dan gebruikt hij die.</li>
+        <li><strong>Klankregels</strong> (alleen Nederlands → Zeeuws): voor woorden die nergens in staan een gok met typische Zeeuwse klanken, zoals het weglaten van de h (<em>huis → uus</em>), <em>ij → ie</em>, <em>ui → uu</em> en <em>ge- → e-</em>.</li>
+      </ol>
+      <p>Controleer de uitkomst altijd: vooral sterke werkwoorden (<em>liep, ging</em>) en meervouden zijn in het Zeeuws vaak anders dan de regels voorspellen.</p>
       <p style="margin:0">Hoe meer woorden er worden toegevoegd, hoe beter de vertaler wordt.</p>
     </section>`;
 
@@ -311,7 +318,7 @@ function paginaVertaler(params) {
     const segmenten = VERTALER.vertaal(invoer.value, { richting, regio, regels });
     uitvoer.innerHTML = segmenten.map((s, i) => {
       if (s.type === 'spatie' || s.type === 'ongewijzigd') return esc(s.tekst);
-      if (s.woord) return `<a class="seg seg-${s.type}" href="#/woord/${enc(s.woord.id)}" data-i="${i}" title="${esc(s.bron)} → ${esc(s.tekst)}${s.woord.regio.length ? ' · ' + esc(s.woord.regio.map((r) => REGIO_NAAM[r]).join(', ')) : ''}">${esc(s.tekst)}</a>`;
+      if (s.woord) return `<a class="seg seg-${s.type}" href="#/woord/${enc(s.woord.id)}" data-i="${i}" title="${esc(s.bron)} → ${esc(s.tekst)}${s.uitleg ? ' · ' + esc(s.uitleg) : ''}${s.woord.regio.length ? ' · ' + esc(s.woord.regio.map((r) => REGIO_NAAM[r]).join(', ')) : ''}">${esc(s.tekst)}</a>`;
       if (s.type === 'onbekend') return `<a class="seg seg-onbekend" href="#/toevoegen?zw=${enc(s.tekst)}" title="Onbekend woord – klik om toe te voegen">${esc(s.tekst)}</a>`;
       return `<span class="seg seg-${s.type}" title="Benadering op basis van klankregels">${esc(s.tekst)}</span>`;
     }).join('');

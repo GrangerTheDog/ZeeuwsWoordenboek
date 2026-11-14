@@ -194,6 +194,8 @@ dl.gegevens dd { margin: 0; }
 .seg { border-radius: 4px; padding: 1px 2px; text-decoration: none; color: inherit; }
 .seg-woordenboek { border-bottom: 2px solid var(--zee-licht); }
 a.seg-woordenboek:hover { background: var(--golf); color: inherit; }
+.seg-afgeleid { border-bottom: 2px dashed var(--zee-licht); }
+a.seg-afgeleid:hover { background: var(--golf); color: inherit; }
 .seg-andere-regio { background: var(--ander-bg); color: var(--ander); border-bottom: 2px dotted var(--ander); }
 .seg-regel { background: var(--regel-bg); color: var(--regel); }
 .seg-onbekend { background: var(--onbekend-bg); color: var(--onbekend); }

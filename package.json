@@ -5,6 +5,6 @@
   "description": "Het open Zeeuws woordenboek met vertaler",
   "scripts": {
     "start": "python3 -m http.server 8000",
-    "test": "node scripts/valideer.mjs && node scripts/test-vertaler.mjs && node scripts/test-issue.mjs"
+    "test": "node scripts/valideer.mjs && node scripts/test-grammatica.mjs && node scripts/test-vertaler.mjs && node scripts/test-issue.mjs"
   }
 }

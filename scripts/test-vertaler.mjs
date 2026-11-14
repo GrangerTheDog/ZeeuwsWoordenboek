@@ -35,3 +35,35 @@ const echt = new Vertaler(lees('../data/woorden.json'), regios);
 assert.ok(echt.vertaalTekst('lieveheersbeestje', { regio: 'schouwen-duiveland' }) === 'piepelepoentje');
 assert.ok(echt.vertaalTekst('tuus', { richting: 'zeeuws-nl' }) === 'thuis');
 console.log('Alle vertaaltests geslaagd ✔');
+
+// Grammatica
+const g = new Vertaler([
+  w("'k", ['ik']), w('jie', ['jij']), w('ie', ['hij']), w('me', ['we']), w('julder', ['jullie']),
+  { ...w('kieke', ['kijken']), soort: 'werkwoord' },
+  { ...w('weune', ['wonen']), soort: 'werkwoord' },
+  { ...w('sleê', ['slaan']), soort: 'werkwoord', toelichting: "Vervoeging\n'k sleê\njie slìt\nie slìt\nme sleê\nVerledentijd\nsloege\nVoltooid deelwoord\nesloge" },
+  { ...w('uus', ['huis']), soort: 'zelfstandig naamwoord' },
+  { ...w('groôt', ['groot']), soort: 'bijvoeglijk naamwoord' },
+  w('nae', ['naar']), w("'t", ['het']), w('de', ['de']),
+], regios);
+const nz = (x) => g.vertaalTekst(x, { regels: false });
+const zn = (x) => g.vertaalTekst(x, { richting: 'zeeuws-nl' });
+assert.equal(nz('Ik kijk'), "'k Kieke");
+assert.equal(nz('Hij kijkt'), 'Ie kiekt');
+assert.equal(nz('Kijk jij?'), 'Kiek jie?');
+assert.equal(nz('Wij keken'), 'Wij keke'); // "wij" staat niet in dit testwoordenboek
+assert.equal(nz('Ik woonde'), "'k Weunde");
+assert.equal(nz('gewoond'), 'eweund');
+assert.equal(nz('jij slaat'), 'jie slìt');            // uit de vervoeging in de toelichting
+assert.equal(nz('geslagen'), 'esloge');
+assert.equal(nz('de huizen'), 'de uuzen');
+assert.equal(nz('het huisje'), "'t uusje");
+assert.equal(nz('grote'), 'groôte');
+assert.equal(zn("'k kieke"), 'ik kijk');
+assert.equal(zn('ie kiekt'), 'hij kijkt');
+assert.equal(zn('me weunde'), 'we woonden');
+assert.equal(zn('esloge'), 'geslagen');
+assert.equal(zn('de uuzen'), 'de huizen');
+assert.equal(zn("'t uusje"), 'het huisje');
+assert.equal(g.vertaal('gewerkt')[0].tekst, 'ewerkt'); // klankregel voor onbekende deelwoorden
+console.log('Grammaticatests geslaagd ✔');

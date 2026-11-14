@@ -383,7 +383,7 @@
   "id": "aele",
   "zeeuws": "aêle",
   "nederlands": [
-   "eggen"
+   "halen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -2732,7 +2732,7 @@
   "id": "begun",
   "zeeuws": "begun",
   "nederlands": [
-   "eggen"
+   "begin"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -2770,7 +2770,7 @@
   "id": "behun",
   "zeeuws": "behun",
   "nederlands": [
-   "eggen"
+   "begin"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [],
@@ -5149,7 +5149,7 @@
   "id": "boven",
   "zeeuws": "boven",
   "nederlands": [
-   "eggen"
+   "boven"
   ],
   "soort": "voorzetsel",
   "plaatsen": [
@@ -5804,7 +5804,7 @@
   "id": "bruun",
   "zeeuws": "bruun",
   "nederlands": [
-   "eggen"
+   "bruin"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -6053,7 +6053,7 @@
   "id": "buur-n",
   "zeeuws": "buur'n",
   "nederlands": [
-   "eggen"
+   "buren"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -6473,7 +6473,7 @@
   "id": "daeken",
   "zeeuws": "daeken",
   "nederlands": [
-   "eggen"
+   "daken"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -6784,7 +6784,7 @@
   "id": "deek-n",
   "zeeuws": "deek'n",
   "nederlands": [
-   "eggen"
+   "deken"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -6841,7 +6841,7 @@
   "id": "deele",
   "zeeuws": "deêle",
   "nederlands": [
-   "eggen"
+   "delen"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -7770,7 +7770,7 @@
   "id": "douwe",
   "zeeuws": "douwe",
   "nederlands": [
-   "eggen"
+   "duwen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -9193,7 +9193,7 @@
   "id": "eig",
   "zeeuws": "eig",
   "nederlands": [
-   "eggen"
+   "eigen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -9212,7 +9212,7 @@
   "id": "eig-n",
   "zeeuws": "eig'n",
   "nederlands": [
-   "eggen"
+   "eigen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -9408,7 +9408,7 @@
   "id": "ekomme",
   "zeeuws": "ekômme",
   "nederlands": [
-   "eggen"
+   "komen"
   ],
   "soort": "voltooid deelwoord",
   "plaatsen": [
@@ -11202,7 +11202,7 @@
   "id": "gaeren",
   "zeeuws": "gaeren",
   "nederlands": [
-   "eggen"
+   "garen"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -12024,7 +12024,7 @@
   "id": "geve",
   "zeeuws": "geve",
   "nederlands": [
-   "eggen"
+   "geven"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -12448,12 +12448,10 @@
   "soort": "tussenwerpsel",
   "plaatsen": [
    "Dreischor",
-   "Ritthem",
    "Zierikzee"
   ],
   "regio": [
-   "schouwen-duiveland",
-   "walcheren"
+   "schouwen-duiveland"
   ],
   "voorbeeld": "",
   "voorbeeldNl": "",
@@ -12914,7 +12912,7 @@
   "id": "groen",
   "zeeuws": "groen",
   "nederlands": [
-   "eggen"
+   "groen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -13223,7 +13221,7 @@
   "id": "hal",
   "zeeuws": "hal",
   "nederlands": [
-   "hok"
+   "hal"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -13377,7 +13375,7 @@
   "id": "haten",
   "zeeuws": "haten",
   "nederlands": [
-   "eggen"
+   "haten"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -13475,7 +13473,7 @@
   "id": "heete",
   "zeeuws": "heête",
   "nederlands": [
-   "eggen"
+   "heten"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -13653,7 +13651,7 @@
   "id": "heve",
   "zeeuws": "heve",
   "nederlands": [
-   "eggen"
+   "geven"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -13967,7 +13965,7 @@
   "id": "hoi",
   "zeeuws": "hoi",
   "nederlands": [
-   "hok"
+   "hoi"
   ],
   "soort": "tussenwerpsel",
   "plaatsen": [
@@ -14329,7 +14327,7 @@
   "id": "hut",
   "zeeuws": "hut",
   "nederlands": [
-   "hok"
+   "hut"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -15141,7 +15139,7 @@
   "id": "jaege",
   "zeeuws": "jaêge",
   "nederlands": [
-   "eggen"
+   "jagen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -15198,7 +15196,7 @@
   "id": "jakke",
   "zeeuws": "jakke",
   "nederlands": [
-   "eggen"
+   "jagen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -17127,7 +17125,7 @@
   "id": "kleine",
   "zeeuws": "kleine",
   "nederlands": [
-   "eggen"
+   "klein"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -18030,7 +18028,7 @@
   "id": "koke",
   "zeeuws": "koke",
   "nederlands": [
-   "eggen"
+   "koken"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -18165,7 +18163,7 @@
   "id": "komme-2",
   "zeeuws": "kômme",
   "nederlands": [
-   "eggen"
+   "komen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -18283,7 +18281,7 @@
   "id": "koope",
   "zeeuws": "koôpe",
   "nederlands": [
-   "eggen"
+   "kopen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -19808,7 +19806,7 @@
   "id": "laek-n",
   "zeeuws": "laêk'n",
   "nederlands": [
-   "eggen"
+   "laken"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -19865,7 +19863,7 @@
   "id": "laete",
   "zeeuws": "laête",
   "nederlands": [
-   "eggen"
+   "laten"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20018,7 +20016,7 @@
   "id": "lange-3",
   "zeeuws": "lange",
   "nederlands": [
-   "eggen"
+   "halen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20229,7 +20227,7 @@
   "id": "leene",
   "zeeuws": "leêne",
   "nederlands": [
-   "eggen"
+   "lenen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20445,7 +20443,7 @@
   "id": "lere",
   "zeeuws": "lere",
   "nederlands": [
-   "eggen"
+   "leren"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20521,7 +20519,7 @@
   "id": "leve",
   "zeeuws": "leve",
   "nederlands": [
-   "eggen"
+   "leven"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20540,7 +20538,7 @@
   "id": "leze",
   "zeeuws": "leze",
   "nederlands": [
-   "eggen"
+   "lezen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20886,7 +20884,7 @@
   "id": "loape",
   "zeeuws": "loape",
   "nederlands": [
-   "eggen"
+   "lopen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -20985,7 +20983,7 @@
   "id": "loope",
   "zeeuws": "loôpe",
   "nederlands": [
-   "eggen"
+   "lopen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -21399,7 +21397,7 @@
   "id": "maeke",
   "zeeuws": "maeke",
   "nederlands": [
-   "eggen"
+   "maken"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -22529,7 +22527,7 @@
   "id": "meuge",
   "zeeuws": "meuge",
   "nederlands": [
-   "eggen"
+   "mogen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -23893,7 +23891,7 @@
   "id": "negene",
   "zeeuws": "negene",
   "nederlands": [
-   "eggen"
+   "negen"
   ],
   "soort": "telwoord",
   "plaatsen": [
@@ -23912,7 +23910,7 @@
   "id": "neme",
   "zeeuws": "neme",
   "nederlands": [
-   "eggen"
+   "nemen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -24541,7 +24539,7 @@
   "id": "noeme-2",
   "zeeuws": "noeme",
   "nederlands": [
-   "eggen"
+   "heten"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -25225,7 +25223,7 @@
   "id": "oe",
   "zeeuws": "oe",
   "nederlands": [
-   "hok"
+   "hoe"
   ],
   "soort": "voegwoord",
   "plaatsen": [
@@ -27107,7 +27105,7 @@
   "id": "ore",
   "zeeuws": "ore",
   "nederlands": [
-   "eggen"
+   "horen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -28276,7 +28274,7 @@
   "id": "peren",
   "zeeuws": "peren",
   "nederlands": [
-   "eggen"
+   "peren"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -29187,7 +29185,7 @@
   "id": "plein",
   "zeeuws": "plein",
   "nederlands": [
-   "eggen"
+   "plein"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -30283,7 +30281,7 @@
   "id": "raeke",
   "zeeuws": "raêke",
   "nederlands": [
-   "eggen"
+   "raken"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -30571,7 +30569,7 @@
   "id": "regen",
   "zeeuws": "regen",
   "nederlands": [
-   "eggen"
+   "regen"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -31197,7 +31195,7 @@
   "id": "roaven",
   "zeeuws": "roaven",
   "nederlands": [
-   "eggen"
+   "roven"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -31387,7 +31385,7 @@
   "id": "rooke",
   "zeeuws": "roôke",
   "nederlands": [
-   "eggen"
+   "roken"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -31762,7 +31760,7 @@
   "id": "saemen",
   "zeeuws": "saemen",
   "nederlands": [
-   "eggen"
+   "samen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -33608,7 +33606,7 @@
   "id": "slee",
   "zeeuws": "sleê",
   "nederlands": [
-   "eggen"
+   "slaan"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -35021,7 +35019,7 @@
   "id": "stae",
   "zeeuws": "staê",
   "nederlands": [
-   "eggen"
+   "staan"
   ],
   "soort": "hulpwerkwoord",
   "plaatsen": [
@@ -35178,7 +35176,7 @@
   "id": "steen",
   "zeeuws": "steên",
   "nederlands": [
-   "eggen"
+   "steen"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -35351,7 +35349,7 @@
   "id": "steun",
   "zeeuws": "steun",
   "nederlands": [
-   "eggen"
+   "steun"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -35655,7 +35653,7 @@
   "id": "stoeng-2",
   "zeeuws": "stoeng",
   "nederlands": [
-   "eggen"
+   "staan"
   ],
   "soort": "werkwoord verleden tijd",
   "plaatsen": [
@@ -36637,7 +36635,7 @@
   "id": "t",
   "zeeuws": "'t",
   "nederlands": [
-   "hok"
+   "het"
   ],
   "soort": "lidwoord",
   "plaatsen": [
@@ -37161,7 +37159,7 @@
   "id": "te-heare",
   "zeeuws": "te heare",
   "nederlands": [
-   "eggen"
+   "samen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -37180,7 +37178,7 @@
   "id": "te-here",
   "zeeuws": "te hére",
   "nederlands": [
-   "eggen"
+   "samen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -37256,7 +37254,7 @@
   "id": "tegen",
   "zeeuws": "tegen",
   "nederlands": [
-   "eggen"
+   "tegen"
   ],
   "soort": "voorzetsel",
   "plaatsen": [
@@ -37294,7 +37292,7 @@
   "id": "teheare",
   "zeeuws": "teheare",
   "nederlands": [
-   "eggen"
+   "samen"
   ],
   "soort": "bijwoord (van graad)",
   "plaatsen": [
@@ -37313,7 +37311,7 @@
   "id": "teken",
   "zeeuws": "teken",
   "nederlands": [
-   "eggen"
+   "teken"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -38082,7 +38080,7 @@
   "id": "toren",
   "zeeuws": "toren",
   "nederlands": [
-   "eggen"
+   "toren"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -38194,7 +38192,7 @@
   "id": "traen",
   "zeeuws": "traên",
   "nederlands": [
-   "eggen"
+   "traan"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -38289,7 +38287,7 @@
   "id": "trein",
   "zeeuws": "trein",
   "nederlands": [
-   "eggen"
+   "trein"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -38917,7 +38915,7 @@
   "id": "ulder-2",
   "zeeuws": "ulder",
   "nederlands": [
-   "hok"
+   "hen"
   ],
   "soort": "persoonlijk voornaamwoord",
   "plaatsen": [
@@ -38993,7 +38991,7 @@
   "id": "um",
   "zeeuws": "um",
   "nederlands": [
-   "hok"
+   "hem"
   ],
   "soort": "persoonlijk voornaamwoord",
   "plaatsen": [
@@ -39054,7 +39052,7 @@
   "id": "ure",
   "zeeuws": "ure",
   "nederlands": [
-   "eggen"
+   "huren"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -39246,7 +39244,7 @@
   "id": "uusouwn",
   "zeeuws": "uusouwn",
   "nederlands": [
-   "eggen"
+   "Gezin"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -40097,7 +40095,7 @@
   "id": "veehe",
   "zeeuws": "vêêhe",
   "nederlands": [
-   "eggen"
+   "vegen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -43610,7 +43608,7 @@
   "id": "wapen",
   "zeeuws": "wapen",
   "nederlands": [
-   "eggen"
+   "wapen"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -43822,7 +43820,7 @@
   "id": "weer-2",
   "zeeuws": "weer",
   "nederlands": [
-   "hok"
+   "heg"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [
@@ -44343,7 +44341,7 @@
   "id": "weune",
   "zeeuws": "weune",
   "nederlands": [
-   "eggen"
+   "wonen"
   ],
   "soort": "werkwoord",
   "plaatsen": [
@@ -44803,7 +44801,7 @@
   "id": "wiste",
   "zeeuws": "wiste",
   "nederlands": [
-   "eggen"
+   "wezen"
   ],
   "soort": "hulpwerkwoord",
   "plaatsen": [
@@ -46889,7 +46887,7 @@
   "id": "zwaene",
   "zeeuws": "zwaene",
   "nederlands": [
-   "eggen"
+   "zwaan"
   ],
   "soort": "zelfstandig naamwoord",
   "plaatsen": [

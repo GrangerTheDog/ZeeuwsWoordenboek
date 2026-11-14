@@ -58,6 +58,16 @@ Open daarna http://localhost:8000. Tests draaien met `npm test` (Node 20 of nieu
 
 ## Over de vertaler
 
-De vertaler zoekt woorden en woordgroepen (tot 5 woorden) op in het woordenboek en kiest het liefst een woord uit de gekozen streek. Daarna komen woorden uit dezelfde groep (eilanden of Zeeuws-Vlaanderen) en pas dan woorden uit andere streken. Die laatste worden anders gemarkeerd. Onbekende Nederlandse woorden kan hij benaderen met klankregels: h weglaten, *ij → ie*, *ui → uu*, en *aa → ae* (eilanden) of *aa → ao* (Zeeuws-Vlaanderen). Zinsbouw en vervoegingen past hij niet aan.
+De zinsbouw van het Zeeuws lijkt sterk op die van het Nederlands; het verschil zit vooral in de woorden en hun vormen. De vertaler (`js/vertaler.js` + `js/grammatica.js`) werkt per woord in drie stappen:
 
-De kwaliteit hangt dus vooral af van het woordenboek. Veel basiswoorden (zoals *ben*, *weet* of *moe*) ontbreken nog. Juist die toevoegen maakt de vertaler meteen beter.
+1. **Woordenboek**: woorden en woordgroepen (tot 5 woorden) worden opgezocht, het liefst uit de gekozen streek, daarna uit dezelfde groep (eilanden of Zeeuws-Vlaanderen) en dan uit andere streken.
+2. **Grammatica**: een vorm die niet letterlijk in het woordenboek staat, wordt herleid tot de grondvorm en in de andere taal opnieuw opgebouwd.
+   - Werkwoorden: *ik kijk → 'k kieke*, *hij kijkt → ie kiekt*, *kijk je → kiek je*, *woonde → weunde*, *gewoond → eweund*. Het onderwerp bepaalt de persoonsvorm. Ruim 100 sterke Nederlandse werkwoorden (*liep, ging, gezien*) zijn ingebouwd.
+   - Staat er in de toelichting van een woord een vervoeging (`Vervoeging / 'k sleê / jie slìt / … / Voltooid deelwoord / esloge`), dan gaat die voor de regels.
+   - Meervouden (*huizen → uuzen*), verkleinwoorden (*huisje → uusje*) en verbogen bijvoeglijke naamwoorden (*grote → groôte*), in beide richtingen. Hiervoor moet het woord een woordsoort hebben.
+3. **Klankregels** (alleen Nederlands → Zeeuws): een gok voor onbekende woorden: h weglaten, *ij → ie*, *ui → uu*, *ge- → e-*, en *aa → ae* (eilanden) of *aa → ao* (Zeeuws-Vlaanderen).
+
+De kwaliteit hangt vooral af van het woordenboek. Basiswoorden (*weten, moe, mooi*), sterke verleden tijden en vervoegingen in de toelichting maken de vertaler direct beter.
+
+### Waarom geen AI-model?
+Kleine, gratis taalmodellen (die in de browser kunnen draaien) kennen nauwelijks Zeeuws en verzinnen woorden; ze zijn ook honderden MB tot enkele GB groot. Grote modellen via een API kosten geld per vertaling en hebben een server nodig. Een regelsysteem op basis van het eigen woordenboek is voorspelbaar, gratis en wordt beter met elk toegevoegd woord. Een AI-model kan later eventueel als extra optie, met het woordenboek als naslag.
