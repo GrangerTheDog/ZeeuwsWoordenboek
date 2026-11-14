@@ -27,11 +27,12 @@ Correcties komen binnen via het sjabloon **Correctie** (knop *Verbetering voorst
 
 ## Eenmalig instellen
 
-1. **Pages aanzetten**: *Settings → Pages → Build and deployment → Source: GitHub Actions*.
-2. **Labels aanmaken**: *Issues → Labels*: `nieuw-woord`, `goedgekeurd` en `correctie`.
-3. **Schrijfrechten voor Actions**: *Settings → Actions → General → Workflow permissions → Read and write permissions*.
-4. Staat de standaardbranch niet op `main`? Pas dan `.github/workflows/pages.yml` aan.
-5. **Eigen domein** (bijv. zeeuwswoordenboek.nl): maak een bestand `CNAME` met daarin `zeeuwswoordenboek.nl`, stel het in onder *Settings → Pages* en laat bij je domeinprovider de DNS naar GitHub Pages wijzen. Pas daarna in `.github/workflows/woord-uit-issue.yml` de link in het bedankbericht aan.
+Het meeste gaat vanzelf: de labels worden aangemaakt door de workflow *Labels aanmaken*, en de workflows vragen zelf de rechten die ze nodig hebben. Twee dingen kunnen alleen via de instellingen:
+
+1. **Pages aanzetten**: *Settings → Pages → Build and deployment → Source: GitHub Actions*. Ga daarna naar *Actions → Site publiceren → Run workflow*.
+2. **(Optioneel) Standaardbranch hernoemen naar `main`**: *Settings → General → Default branch* (potloodje). De workflows werken met elke naam.
+
+**Eigen domein** (zeeuwswoordenboek.nl): doe dit pas als de nieuwe site goed draait. Vul het domein in onder *Settings → Pages → Custom domain* en laat bij je domeinprovider de DNS naar GitHub Pages wijzen (zie [de uitleg van GitHub](https://docs.github.com/nl/pages/configuring-a-custom-domain-for-your-github-pages-site)). Voeg ook een bestand `CNAME` toe met daarin `zeeuwswoordenboek.nl`. Oude links zoals `/nederlands-zeeuws/huis` worden dan automatisch doorgestuurd.
 
 Heet de repository anders of verhuist hij? Pas dan `js/config.js` aan.
 

@@ -48,7 +48,9 @@ jobs:
           ID: ${{ steps.woord.outputs.id }}
         with:
           script: |
-            const url = `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}/#/woord/${process.env.ID}`;
+            let basis = `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}/`;
+            try { basis = (await github.rest.repos.getPages(context.repo)).data.html_url; } catch {}
+            const url = `${basis.replace(/\/?$/, '/')}#/woord/${process.env.ID}`;
             await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number,
               body: `Dank je wel! Het woord is toegevoegd en staat over een paar minuten online: ${url}` });
             await github.rest.issues.update({ ...context.repo, issue_number: context.issue.number, state: 'closed', state_reason: 'completed' });
