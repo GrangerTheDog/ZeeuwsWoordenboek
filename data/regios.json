@@ -1,0 +1,62 @@
+[
+  {
+    "id": "algemeen",
+    "naam": "Algemeen Zeeuws",
+    "groep": "algemeen",
+    "omschrijving": "Woorden die in (vrijwel) heel Zeeland gebruikt worden."
+  },
+  {
+    "id": "walcheren",
+    "naam": "Walcheren",
+    "groep": "eilanden",
+    "omschrijving": "Middelburg, Vlissingen, Domburg, Westkapelle en omstreken."
+  },
+  {
+    "id": "zuid-beveland",
+    "naam": "Zuid-Beveland",
+    "groep": "eilanden",
+    "omschrijving": "Goes, Kapelle, Yerseke, Kruiningen en omstreken."
+  },
+  {
+    "id": "noord-beveland",
+    "naam": "Noord-Beveland",
+    "groep": "eilanden",
+    "omschrijving": "Kortgene, Wissenkerke, Colijnsplaat."
+  },
+  {
+    "id": "schouwen-duiveland",
+    "naam": "Schouwen-Duiveland",
+    "groep": "eilanden",
+    "omschrijving": "Zierikzee, Brouwershaven, Bruinisse."
+  },
+  {
+    "id": "tholen",
+    "naam": "Tholen",
+    "groep": "eilanden",
+    "omschrijving": "Tholen, Sint-Maartensdijk, Poortvliet."
+  },
+  {
+    "id": "sint-philipsland",
+    "naam": "Sint Philipsland",
+    "groep": "eilanden",
+    "omschrijving": "Sint Philipsland, Anna Jacobapolder."
+  },
+  {
+    "id": "west-zeeuws-vlaanderen",
+    "naam": "West-Zeeuws-Vlaanderen",
+    "groep": "zeeuws-vlaanderen",
+    "omschrijving": "Oostburg, Sluis, Breskens, Aardenburg, Groede, Cadzand."
+  },
+  {
+    "id": "midden-zeeuws-vlaanderen",
+    "naam": "Midden-Zeeuws-Vlaanderen",
+    "groep": "zeeuws-vlaanderen",
+    "omschrijving": "Terneuzen, Axel, Zaamslag, Sas van Gent, Philippine."
+  },
+  {
+    "id": "oost-zeeuws-vlaanderen",
+    "naam": "Oost-Zeeuws-Vlaanderen",
+    "groep": "zeeuws-vlaanderen",
+    "omschrijving": "Hulst, Clinge, Graauw, Kloosterzande; sterk Vlaams/Brabants getint."
+  }
+]

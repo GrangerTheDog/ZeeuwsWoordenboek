@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Zeeuws Woordenboek</title>
+  <script>
+    // Oude adressen (zeeuwswoordenboek.nl/nederlands-zeeuws/huis) doorsturen naar de nieuwe site.
+    (function () {
+      var p = location.pathname, m;
+      var basis = location.hostname.endsWith('github.io') ? '/' + p.split('/')[1] + '/' : '/';
+      var doel = '';
+      if ((m = p.match(/\/(nederlands-zeeuws|zeeuws-nederlands)\/([^/]+)/))) doel = '#/zoek/' + decodeURIComponent(m[2]).replace(/-/g, ' ');
+      else if ((m = p.match(/\/plaats\/([^/]+)/))) doel = '#/plaats/' + m[1];
+      else if (/woorden-toevoegen/.test(p)) doel = '#/toevoegen';
+      else if (/zeeuws-dialect/.test(p)) doel = '#/over';
+      location.replace(basis + doel);
+    })();
+  </script>
+</head>
+<body><p><a href="./">Naar het Zeeuws Woordenboek</a></p></body>
+</html>

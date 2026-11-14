@@ -1,0 +1,17 @@
+name: Correctie
+description: Meld een fout of verbetering bij een bestaand woord.
+title: "Correctie: "
+labels: ["correctie"]
+body:
+  - type: input
+    id: woord
+    attributes:
+      label: Om welk woord gaat het?
+    validations:
+      required: true
+  - type: textarea
+    id: wat
+    attributes:
+      label: Wat klopt er niet, en wat moet het zijn?
+    validations:
+      required: true

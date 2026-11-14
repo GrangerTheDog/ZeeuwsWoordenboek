@@ -1,0 +1,1112 @@
+[
+ {
+  "naam": "Aagtekerke",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Aardenburg",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Akkerput",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Anna Jacobapolder",
+  "gemeente": "Tholen",
+  "regio": "sint-philipsland"
+ },
+ {
+  "naam": "Arnemuiden",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Axel",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Baalhoek",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Baarland",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Baarsdorp",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Bakkersdam",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Bath",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Berdelingebuurte",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Biervliet",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Biezelinge",
+  "gemeente": "Kapelle",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Biggekerke",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Boerengat",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Boerenhol",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Bontekoe",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Borssele",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Boschdorp",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Boschkapelle",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Bouchauterhaven",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Breskens",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Brigdamme",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Brijdorpe",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Brouwershaven",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Bruinisse",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Burgh",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Buttinge",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Cadzand",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Clinge",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Colijnsplaat",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "De Muis",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Dishoek",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Domburg",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Draaibrug",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Dreischor",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Drieschouwen",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Driewegen (Borsele)",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Driewegen (Terneuzen)",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Driewegen wijk van Terneuzen",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Eede",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Eendragt",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Eindewege",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Elkerzee",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Ellemeet",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Ellewoutsdijk",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Fort Ferdinandus",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Gapinge",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Geersdijk",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "Goes",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Graauw",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "'s-Gravenpolder",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Griete",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Grijpskerke",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Groede",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Groot-Abeele",
+  "gemeente": "Vlissingen",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Haamstede",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Hansweert",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Hasjesstraat",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hazelarenhoek",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "'s-Heer Abtskerke",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "'s-Heer Arendskerke",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "'s-Heer Hendrikskinderen",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "'s-Heerenhoek",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Heikant",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Heille",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Heinkenszand",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Hengstdijk",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Het Zand",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hoedekenskerke",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Hoek",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hoek van de Dijk",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Holleken (deels)",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hoofdplaat",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hoogeweg",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Hulst",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "IJzendijke",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Isabellahaven",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kamperland",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "Kapelle",
+  "gemeente": "Kapelle",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kapellebrug",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kats",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "Kattendijke",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kerkwerve",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Kijkuit",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Klein-Brabant",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kleverskerke",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Kloetinge",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kloosterzande",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Knol",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Koewacht",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Koninginnehaven",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kortgene",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "Koudekerke",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Krabbendijke",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kruiningen",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kruispad",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kuitaart",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Kwadendamme",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Kwakkel",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Lamswaarde",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Lewedorp",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Looperskapelle",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Maagd van Gent (deels)",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Magrette",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Mauritsfort",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Meliskerke",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Middelburg",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Moriaanshoofd",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Nieuw- en Sint Joosland",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Nieuw-Namen",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Nieuwdorp",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Nieuwe Molen",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Nieuwerkerk",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Nieuwerkerke",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Nieuwvliet",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Nisse",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Noordgouwe",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Noordwelle",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Nummer Eén",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oost-Souburg",
+  "gemeente": "Vlissingen",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Oostburg",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oostburgsche Brug",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oostdijk",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Oosterland",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Oostkapelle",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Ossenisse",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Othene",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oud-Sabbinge",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Oud-Vossemeer",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Oude Molen",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oude Polder",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Oudedorp",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Oudelande",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Ouwerkerk",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Overslag",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Ovezande",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Paal",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Paradijs",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Passluis",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Perkpolder",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Philippine",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Poonhaven",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Poortvliet",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Poppendamme",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Posthoorn (deels)",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Ratte",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Renesse",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Retranchement",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Reuzenhoek",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Rilland",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Ritthem",
+  "gemeente": "Vlissingen",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Roodesluis",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sas van Gent",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sasput",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Schapenbout",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Scharendijke",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Scherpenisse",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Schoondijke",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Schore",
+  "gemeente": "Kapelle",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Schuddebeurs (Hulst)",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Schuddebeurs (Schouwen-Duiveland)",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Serooskerke (Schouwen-Duiveland)",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Serooskerke (Veere)",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Sinoutskerke",
+  "gemeente": "Borsele",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Sint Andries",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sint Anna ter Muiden",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sint Jansteen",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sint Kruis",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sint Laurens",
+  "gemeente": "Middelburg",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Sint Philipsland",
+  "gemeente": "Tholen",
+  "regio": "sint-philipsland"
+ },
+ {
+  "naam": "Sint-Annaland",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Sint-Maartensdijk",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Sirjansland",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Slijkplaat",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Slikkenburg",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sluis",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Sluiskil",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Spui",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Stavenisse",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Steenovens",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Stoppeldijk",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Stroodorpe",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Terhofstede",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Terhole",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Terneuzen",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Tholen",
+  "gemeente": "Tholen",
+  "regio": "tholen"
+ },
+ {
+  "naam": "Turkeye",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Vaartwijk",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Val",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Varempé",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Veere",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Vlake",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Vlissingen",
+  "gemeente": "Vlissingen",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Vogelwaarde",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Vrouwenpolder",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Waarde",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Walsoorden",
+  "gemeente": "Hulst",
+  "regio": "oost-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Waterhuis",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Waterlandkerkje",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Wemeldinge",
+  "gemeente": "Kapelle",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "West-Souburg",
+  "gemeente": "Vlissingen",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Westdorpe",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Westkapelle",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Wilhelminadorp",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Wissenkerke",
+  "gemeente": "Noord-Beveland",
+  "regio": "noord-beveland"
+ },
+ {
+  "naam": "Wolphaartsdijk",
+  "gemeente": "Goes",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Wulpenbek",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Yerseke",
+  "gemeente": "Reimerswaal",
+  "regio": "zuid-beveland"
+ },
+ {
+  "naam": "Zaamslag",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zaamslagveer",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zandplaat",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zandstraat",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zierikzee",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Zijpe",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Zonnemaire",
+  "gemeente": "Schouwen-Duiveland",
+  "regio": "schouwen-duiveland"
+ },
+ {
+  "naam": "Zoutelande",
+  "gemeente": "Veere",
+  "regio": "walcheren"
+ },
+ {
+  "naam": "Zuiddorpe",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zuidzande",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zwartenhoek",
+  "gemeente": "Terneuzen",
+  "regio": "midden-zeeuws-vlaanderen"
+ },
+ {
+  "naam": "Zwindorp",
+  "gemeente": "Sluis",
+  "regio": "west-zeeuws-vlaanderen"
+ }
+]

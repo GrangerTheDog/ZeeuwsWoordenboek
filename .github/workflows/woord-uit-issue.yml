@@ -1,0 +1,64 @@
+# Wanneer een beheerder het label "goedgekeurd" op een "Nieuw woord"-issue zet,
+# wordt het woord automatisch aan data/woorden.json toegevoegd en het issue gesloten.
+name: Woord toevoegen uit issue
+
+on:
+  issues:
+    types: [labeled]
+
+concurrency:
+  group: woorden-json
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  toevoegen:
+    if: github.event.label.name == 'goedgekeurd' && contains(github.event.issue.labels.*.name, 'nieuw-woord')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Issue omzetten naar woord
+        id: woord
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMMER: ${{ github.event.issue.number }}
+        run: node scripts/issue-naar-woord.mjs 2> fout.txt || { cat fout.txt; exit 1; }
+
+      - name: Committen
+        env:
+          ZEEUWS: ${{ steps.woord.outputs.zeeuws }}
+          NUMMER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/woorden.json
+          git commit -m "Woord toegevoegd: $ZEEUWS (#$NUMMER)"
+          git push
+
+      - name: Issue sluiten
+        uses: actions/github-script@v7
+        env:
+          ID: ${{ steps.woord.outputs.id }}
+        with:
+          script: |
+            const url = `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}/#/woord/${process.env.ID}`;
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number,
+              body: `Dank je wel! Het woord is toegevoegd en staat over een paar minuten online: ${url}` });
+            await github.rest.issues.update({ ...context.repo, issue_number: context.issue.number, state: 'closed', state_reason: 'completed' });
+
+      - name: Foutmelding plaatsen
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const fout = fs.existsSync('fout.txt') ? fs.readFileSync('fout.txt', 'utf8').split('\n').filter(l => /Error|onbekend|verplicht/.test(l)).slice(0, 5).join('\n') : '';
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number,
+              body: `Het automatisch toevoegen is mislukt.\n\n\`\`\`\n${fout || 'Zie de Actions-log.'}\n\`\`\`\n\nPas het issue aan, haal het label \`goedgekeurd\` weg en zet het er opnieuw op.` });

@@ -1,0 +1,52 @@
+name: Nieuw woord
+description: Stel een Zeeuws woord of uitdrukking voor.
+title: "Nieuw woord: "
+labels: ["nieuw-woord"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt! Een beheerder bekijkt je voorstel. Na goedkeuring (label `goedgekeurd`) wordt het woord automatisch toegevoegd.
+  - type: input
+    id: zeeuws
+    attributes:
+      label: Zeeuws woord of uitdrukking
+      placeholder: piepelepoentje
+    validations:
+      required: true
+  - type: input
+    id: nederlands
+    attributes:
+      label: Nederlandse betekenis
+      description: Meerdere betekenissen scheiden met ;
+      placeholder: lieveheersbeestje
+    validations:
+      required: true
+  - type: input
+    id: plaats
+    attributes:
+      label: Plaats waar het zo gezegd wordt
+      placeholder: Zierikzee
+  - type: input
+    id: regio
+    attributes:
+      label: Streek
+      description: "Bijv. Walcheren, Zuid-Beveland, Noord-Beveland, Schouwen-Duiveland, Tholen, Sint Philipsland, West-, Midden- of Oost-Zeeuws-Vlaanderen. Mag leeg als de plaats is ingevuld."
+  - type: input
+    id: soort
+    attributes:
+      label: Woordsoort
+      placeholder: zelfstandig naamwoord
+  - type: input
+    id: voorbeeld
+    attributes:
+      label: Voorbeeldzin in het Zeeuws
+  - type: input
+    id: voorbeeld_nl
+    attributes:
+      label: Vertaling van de voorbeeldzin
+  - type: textarea
+    id: toelichting
+    attributes:
+      label: Toelichting
+      description: Herkomst, uitspraak, vervoeging…

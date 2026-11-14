@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zeeuws Woordenboek</title>
+  <meta name="description" content="Het open Zeeuws woordenboek: zoek, vertaal en voeg woorden toe uit alle Zeeuwse streken.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23163a5f'/><path d='M4 21c4-3 8 3 12 0s8 3 12 0v4c-4 3-8-3-12 0s-8-3-12 0z' fill='%23fff'/><circle cx='16' cy='12' r='5' fill='%23f2b705'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#inhoud">Naar inhoud</a>
+  <header class="kop">
+    <div class="wrap kop-binnen">
+      <a href="#/" class="logo" aria-label="Zeeuws Woordenboek, home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M4 21c4-3 8 3 12 0s8 3 12 0v4c-4 3-8-3-12 0s-8-3-12 0z" fill="#fff"/><circle cx="16" cy="12" r="5" fill="#f2b705"/></svg>
+        <span>Zeeuws <b>Woordenboek</b></span>
+      </a>
+      <nav class="menu" aria-label="Hoofdmenu">
+        <a href="#/" data-route="">Woordenboek</a>
+        <a href="#/vertaler" data-route="vertaler">Vertaler</a>
+        <a href="#/toevoegen" data-route="toevoegen">Woord toevoegen</a>
+        <a href="#/over" data-route="over">Over</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhoud" class="wrap" tabindex="-1">
+    <noscript><p class="melding">Deze site heeft JavaScript nodig.</p></noscript>
+    <div id="app" aria-live="polite"></div>
+  </main>
+
+  <footer class="voet">
+    <div class="wrap">
+      <p>Een open, door de gemeenschap gemaakt woordenboek. <a id="repo-link" href="#">Bekijk of verbeter het op GitHub</a>.</p>
+      <p class="klein">Woorden uit de startset zijn nog niet allemaal gecontroleerd; meld fouten gerust.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
